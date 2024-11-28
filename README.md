@@ -41,13 +41,13 @@ The animations are controlled within Unity using the **Animator window** to set 
 4. Connect these animation states using **transitions**:
    - **Idle → Run → Walk → Idle** (for looping between the states).
    - You can adjust the **transition conditions** to control when each animation occurs (for example, using **Speed** or other parameters).
-![Idle image](https://github.com/siddhartha-roche/Animation-Learnings/blob/main/Idle.png)
+![Idle image](https://github.com/sidk3/Animation-Learnings/blob/main/Idle.png)
 ### 4. Assign the Animator Controller to the Y-Bot:
 1. Select the Y-Bot in the **Hierarchy** window.
 2. In the **Inspector**, find the **Animator** component.
 3. Assign the **YBot_Animator Controller** to the Animator component.
 
-![Running image](https://github.com/siddhartha-roche/Animation-Learnings/blob/main/Running.png)
+![Running image](https://github.com/sidk3/Animation-Learnings/blob/main/Running.png)
 
 ### 5. Testing the Animation in Unity:
 1. Press **Play** in Unity.
@@ -59,19 +59,7 @@ The animations are controlled within Unity using the **Animator window** to set 
 1. Press **Play** in Unity to start the demo.
 2. You can watch the Y-Bot transition between idle, walking, and running states based on the animation setup in the Animator.
 
-> Optional: To make the transitions more dynamic, you could later experiment with adding input or triggers, such as using the **Horizontal** or **Vertical** axis for more interactive animation control.
-
-## Troubleshooting:
-- If the Y-Bot is not moving between animations as expected, double-check the **Animator** transitions and ensure that the correct **conditions** (like **Speed** or **Trigger**) are set for each transition.
-- Make sure the **FBX file** is properly imported with the **correct rig type** (Humanoid) to ensure the animations are compatible.
-
-## Known Issues:
-- **Transition delay**: Sometimes, there might be a slight delay between animation transitions, which can be adjusted in the Animator window.
-  
 ## Credits:
 - **Character**: Y-Bot from **Mixamo**
 - **Game Engine**: **Unity**
 - **Animations**: Mixamo's **Idle**, **Walk**, and **Run** animations
-
-## Feedback & Support:
-For feedback or any issues, feel free to contact me at [your email address] or create an issue on the GitHub page.
